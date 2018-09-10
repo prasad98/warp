@@ -13,7 +13,7 @@ class VGG16mo:
         if vgg16_npy_path is None:
             path = inspect.getfile(VGG16mo)
             path = os.path.abspath(os.path.join(path, os.pardir))
-            path = os.path.join(path, "vgg16partial.npy")
+            path = os.path.join(path, "vgg16.npy")
             vgg16_npy_path = path
             #print(path)
 

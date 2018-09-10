@@ -5,7 +5,7 @@ from utils.utils import *
 import cv2
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES'] = ''
+#os.environ['CUDA_VISIBLE_DEVICES'] = ''
 # designate image path here
 IX_path = '../img/model.png'
 IY_path = '../img/product.png'
